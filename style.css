@@ -7,15 +7,15 @@ body {
 }
 section {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
 }
 div {
     border: 2px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    font-size: 50px;
 }
 span {
     position: absolute;
